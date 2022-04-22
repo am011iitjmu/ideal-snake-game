@@ -1,0 +1,21 @@
+.board{
+    outline: 2px solid;
+}
+.row{
+    height: 30px;
+}
+.cell{
+    width: 30px;
+    height: 30px;
+    outline: 1px solid;
+    display: inline-block;
+}
+.snake-cell{
+    background-color: #00ccff;
+}
+.food-cell{
+    background-color: #ffcc00;
+}
+.food-cell-reverse{
+    background-color: #ff0000;
+}
